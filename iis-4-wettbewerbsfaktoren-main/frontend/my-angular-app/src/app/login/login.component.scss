@@ -1,0 +1,77 @@
+.login-container {
+  width: 350px; /* Größerer Container */
+  padding: 30px; /* Mehr Innenabstand */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rundere Ecken */
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Schlagschatten für bessere Sichtbarkeit */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Zentriert alle Elemente horizontal */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem; /* Größere Schriftgröße */
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Mehr Platz zwischen den Feldern */
+  width: 100%; /* Sicherstellen, dass das Formular die gesamte Breite nutzt */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px; /* Mehr Abstand zu den Feldern */
+  font-size: 1rem;
+  color: #555;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px; /* Mehr Padding für bessere Benutzererfahrung */
+  margin-bottom: 10px; /* Mehr Abstand unter den Eingabefeldern */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Abgerundete Ecken */
+  font-size: 1rem; /* Größere Schriftgröße für die Eingabe */
+  background-color: #f4f4f4;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+  text-align: center; /* Fehlermeldung auch zentriert */
+}
+
+button.btn {
+  width: 100%;
+  padding: 12px; /* Größere Schaltfläche */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem; /* Größere Schriftgröße für den Button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #45a049; /* Button-Farbe beim Hover */
+}
+
+button.btn:disabled {
+  background-color: #ccc;
+}
